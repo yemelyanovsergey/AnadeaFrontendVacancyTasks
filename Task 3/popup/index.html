@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task 3</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<span class="text-logo">Kohl Corp. Vacation planning</span>
+			<ul class="additional-nav">
+				<li class="indention"><a href="#">Hi, Matthew</a></li>
+				<li class="indention"><a href="#">My info</a></li>
+				<li class="indention"><a href="#">Help</a></li>| &nbsp;
+				<li><a href="#"><img src="img/smalldetail.png" width="7" height="8" alt="logout-icon"> Logout</a></li>
+			</ul>
+			<nav class="main-nav">
+				<ul>
+					<li class="nav-indention"><a href="#">Overview</a> <img src="img/overview-icon.png" width="18" height="18" class="overview-icon" alt="overview-icon"></li>
+                	<li class="nav-indention"><a href="#">Time Offs</a></li>
+                	<li class="nav-indention"><a href="#">Purchases</a></li>
+                	<li class="nav-indention-special"><a href="#">Employees</a></li>
+                	<li><a href="#"><img src="img/cogwheel-icon.png" width="13" height="14" class="cogwheel-icon" alt="cogwheel-icon"> Company settings</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="main-content">
+			<img src="img/triangle-icon.png" width="17" height="9" class="triangle-icon" alt="triangle-icon">
+			<article class="overview">
+				<h1 class="heading">Overview</h1>
+				<hr class="line">
+				<div class="wrapper">
+					<div id="popup">
+						<img src="img/face1.png" width="40" height="40" class="photo-frame christina" alt="photo">
+						<p class="name">Christina Frerichs</p>
+						<p class="job-position">manager</p>
+						<p class="popup-text">10 days left</p>
+						<p class="popup-text">13 days pending</p>
+						<p class="popup-text paragraph4">3 days rejected <div class="number">3/5</div></p>
+						<p class="indent"><a href="#">last activity 12 days ago</a></p>
+						<p class="indent"><a href="#">users time off</a></p>
+						<p class="indent"><a href="#">todo list</a></p>
+					</div>
+					<div class="photo">
+                    	<img src="img/face1.png" width="40" height="40" class="photo-frame christina" alt="photo">
+                    </div>
+                    <div class="text">
+                    	<p class="user-info"><span class="name-highlighting christina">Christina Frerichs</span> <span class="text-highlighting">asks for time off.</span> <img src="img/calendar-icon.png" width="12" height="12" alt="calendar-icon"> <span class="text-highlighting2">May 15-20</span>, 5 days. Sickness <button class="pending">Pending</button></p>
+                    	<p class="comments">I need some rest - <span class="name-highlighting">Shona L. Brown</span> <span class="text-highlighting">1 hour ago</span><span class="status-answer"><img src="img/answer-icon.png" width="15" height="13" alt="answer-icon"> Answer</span></p>
+                    </div>
+                </div><!--END .wrapper-->
+                <hr class="line-special">
+                <div class="wrapper">
+                	<div class="photo">
+                    	<img src="img/face2.png" width="40" height="42" class="photo-frame" alt="photo">
+                    </div>
+                    <div class="text">
+                    	<p class="user-info"><span class="name-highlighting">Daniele Longo</span> <span class="text-highlighting">asks for time off.</span> <img src="img/calendar-icon.png" width="12" height="12" alt="calendar-icon"> <span class="text-highlighting2">May 10-17</span>, 5 days. Holiday <button class="pending">Pending</button></p>
+                    	<p class="comments">I need some rest - <span class="name-highlighting">Shona L. Brown</span> <span class="text-highlighting">1 hour ago</span><span class="status-answer"><img src="img/answer-icon.png" width="15" height="13" alt="answer-icon"> Answer</span></p>
+                    </div>
+                </div><!--END .wrapper--> 
+			</article>
+			<article class="active-stories">
+				<h1 class="heading">Active stories</h1>
+				<hr class="line">
+				<div class="wrapper">
+					<div class="photo">
+						<img src="img/face1.png" width="40" height="40" class="photo-frame" alt="photo">
+					</div>
+					<div class="text">
+                		<p class="user-info"><span class="name-highlighting">Christina Frerichs</span> <span class="text-highlighting">asks for new purchase.</span> Notebook, &pound;1,000 <button class="bought">Bought</button></p>
+                    	<p class="comments">Done - <span class="name-highlighting">Shona L. Brown</span> <span class="text-highlighting">1 hour ago</span><span class="status">3 comments</span></p>
+                	</div>
+                </div><!--END .wrapper-->
+				<hr class="line">
+				<div class="wrapper">
+					<div class="photo">
+                    	<img src="img/face3.png" class="photo-frame" alt="photo">
+               		</div>
+                	<div class="text">  
+                    	<p class="user-info"><span class="name-highlighting">Harold Henriquez</span> <span class="text-highlighting">asks for new purchase.</span> Notebook, &pound;1,000 <button class="bought">Bought</button></p>
+                    	<p class="comments">I want a new laptop - <span class="name-highlighting">Harold Henriquez</span><span class="status">Hide</span><br>No problem - <span class="name-highlighting">D. Bruce Sewell</span><br>Done - <span class="name-highlighting">Shona L. Brown</span> <span class="text-highlighting">35 min ago</span></p>
+                	</div>
+				</div><!--END .wrapper-->
+				<hr class="line hr-indent">
+				<div class="wrapper">
+					<div class="photo">
+                    	<img src="img/face3.png" width="40" height="42" class="photo-frame" alt="photo">
+                	</div>
+                	<div class="text">  
+                    	<p class="user-info"><span class="name-highlighting">Harold Henriquez</span> <span class="text-highlighting">asks for new purchase.</span> Notebook ASUS EEE PC, &pound;1,000 <button class="approved">Approved</button></p>
+                    	<p class="comments">I want a new laptop - <span class="name-highlighting">Harold Henriquez</span><span class="status">Hide</span><br>No problem - <span class="name-highlighting">D. Bruce Sewell</span> <span class="text-highlighting">1 hour ago</span> <img src="img/pencil-icon.png" width="12" height="12" alt="pencil-icon"></p>
+                	</div>
+                </div><!--END .wrapper-->
+				<hr class="line hr-indent-last">
+                <div class="wrapper">
+					<div class="photo">
+                    	<img src="img/face4.png" width="40" height="42" class="photo-frame" alt="photo">
+                	</div>
+                	<div class="text">    
+                    	<p class="user-info"><span class="name-highlighting">Daniele Longo</span> <span class="text-highlighting">asks for new purchase.</span> Notebook, &pound;1,000 <button class="approved">Approved</button></p>
+                    	<p class="comments">I want a new laptop - <span class="name-highlighting">Daniele Longo</span><span class="status">Hide</span><br>Ok. I don't mind - <span class="name-highlighting">D. Bruce Sewell</span> <span class="text-highlighting">1 min ago</span> <img src="img/pencil-icon.png" width="12" height="12" alt="pencil-icon"></p>
+					</div>
+				</div><!--END .wrapper-->
+			</article>
+		</section>
+		<footer class="page-footer">
+			<p class="copyright">Copyright &copy Kohl Corp. 2017. All rights reserved.</p>
+		</footer>
+	</div><!--END .container-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

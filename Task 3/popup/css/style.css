@@ -1,0 +1,267 @@
+﻿body {
+	background-color: #EEF3FA;
+}
+.container {
+	width: 1100px;
+	height: 1154px;
+	margin: 0 auto;
+}
+.container, .main-nav {
+	background-color: #6B7E8D;
+}
+header {
+	position: relative;
+	height: 40px;
+	background-color: #48555F;
+	margin-bottom: 68px;
+}
+.additional-nav li, .main-nav ul li {
+	display: inline-block;
+}
+.additional-nav li, .main-nav ul li, .text-logo, .heading, .name-highlighting, .comments, .status, .status-answer, .copyright, .number {
+	font-weight: bold;
+}
+.main-nav {
+	margin-left: 115px;
+	margin-top: 35px;
+}
+.cogwheel-icon {
+	position: absolute;
+	top: 2px;
+	left: -18px;
+}
+.overview-icon {
+	position: absolute;
+	top: -16px;
+	left: 68px;
+}
+.main-nav ul li {
+	position: relative;
+}
+.main-nav ul li a, .additional-nav li a {
+	text-decoration: none;
+}
+.main-nav ul li a, .additional-nav li a, .pending, .bought, .approved, .number {
+	color: #FFFFFF;
+}
+.additional-nav li {
+	font-size: 0.8em;
+}
+.main-nav ul li a:hover, .additional-nav li a:hover {
+	color: #BBCDDC;
+}
+.text-logo {
+	margin-left: 108px;
+	line-height: 40px;
+}
+.text-logo, .copyright {
+	color: #F3F3F3;
+}
+.additional-nav {
+	position: absolute;
+	top: 0px;
+	right: 115px;
+	line-height: 40px;
+}
+.indention {
+	margin-right: 15px; 
+}
+.nav-indention {
+	margin-right: 35px; 
+}
+.nav-indention-special {
+	margin-right: 100px; 
+}
+.main-content {
+	width: 700px;
+	height: 720px;
+	margin-left: 75px;
+	border-radius: 5px;
+}
+.main-content, .heading {
+	background-color: #F3F3F3;
+}
+.main-content {
+	position: relative;
+}
+.triangle-icon {
+	position: absolute;
+	top: -9.5px;
+	left: 73px;
+}
+.overview {
+	height: 250px;
+}
+.active-stories {
+	height: 470px;
+}
+.heading {
+	position: relative;
+	top: 12px;
+	height: 39px;
+	line-height: 39px;
+	padding-left: 42px;
+	border-radius: 5px;
+	font-size: 1.5em;
+}
+.heading, .user-info, .comments, .job-position, .popup-text {
+	color: #666666;
+}
+.pending, .bought, .approved {
+	height: 18px;
+	margin-left: 6px;
+	border: none;
+	border-radius: 2px;
+}
+.pending {
+	background-color: #FCCA00;
+}
+.bought {
+	background-color: #5EC8D2;
+}
+.approved {
+	background-color: #ABD25E;
+}
+.text-highlighting {
+	color: #B5B5B5;
+}
+.name-highlighting, .text-highlighting2, .status, .status-answer, .name, .indent a {
+	color: #6689A6;
+}
+.photo-frame {
+	outline: 2px solid #D0DFEC; /*frame for the photo*/
+    border: 3px solid #fff;
+}
+.user-info {
+	margin-bottom: 7px;
+	padding-left: 9px;
+}
+.comments {
+	position: relative;
+	width: 546px;
+	line-height: 1.2;
+	padding-left: 13px;
+	margin-left: 10px;
+	border: 2px solid #D0DFEC;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #E9F3FB;
+}
+.special-indent {
+	padding-top: 40px;
+}
+.status {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	padding-top: 5px;
+}
+.wrapper {
+	position: relative;
+	font-size: 0.9em;
+}
+.photo {
+	margin-left: 36px;
+	margin-top: 19px;
+}
+.text {
+	position: absolute;
+	top: 0px;
+	left: 92px;
+}
+.page-footer {
+	background-color: #48555F;
+	margin-top: 245px;
+}
+.copyright {
+	height: 80px;
+	line-height: 80px;
+	margin-left: 111px;
+}
+.status-answer {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	border-left: 2px solid #D0DFEC;
+}
+.line {
+	margin-top: 14px;
+	border-top: 1px solid #E9E9E9;
+	border-bottom: 1px solid #fff;
+}
+.line-special {
+	position: relative;
+	top: 50px;
+	border-top: 1px solid #E9E9E9;
+	border-bottom: 1px solid #fff;
+}
+.hr-indent {
+	margin-bottom: 45px;
+	position: relative;
+	top: 33px;
+}
+.hr-indent-last {
+	margin-bottom: 38px;
+	position: relative;
+	top: 27px;
+}
+
+
+/* POPUP styles */
+#popup {
+	position: relative;
+	display: none;
+	position: absolute;
+	width: 229px;
+	height: 196px;
+	outline: 1px solid #ABABAB;
+	background: #F9FBD9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /*parameters of the shadow*/
+    padding: 15px 15px 15px 15px;
+    z-index: 999;
+    font-weight: bold;
+}
+.name {
+	position: absolute;
+	top: 15px;
+	right: 68px;
+}
+.job-position {
+	position: absolute;
+	top: 37px;
+	right: 127px;
+}
+.popup-text {
+	margin-top: 9px;
+	margin-bottom: 10px;
+}
+.paragraph4 {
+	text-indent: 0.5em;
+}
+.indent {
+	text-align: right;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.indent a {
+	color: #6689A6;
+}
+.number {
+	position: absolute;
+	top: 88px;
+	right: 20px;
+	width: 91px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #5EC8D2;
+	font-size: 2em;	
+}
+
+
+
+

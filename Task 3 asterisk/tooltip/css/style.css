@@ -1,0 +1,106 @@
+﻿body {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#hint {
+	display: none;
+	position: absolute;
+	border: 1px solid #ccc;
+	padding: 5px;
+	background-color: #333333;
+	color: #EFEFEF;
+	border-radius: 5px;
+	z-index: 9999;
+	opacity: 0.9;
+	font-weight: normal;
+}
+.tooltip {
+	position: relative;
+	width: 600px;
+	height: 200px;
+	border: 2px solid #999999;
+	border-radius: 2px;
+	border-style: groove;
+}
+.shadow {
+    background: #fc0; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 1px;
+}
+.btn-wrapper {
+	position: absolute;
+	left: 100px;
+	bottom: 0px;
+}
+.btn, .news-feed-wrapper, .btn-subscribe, .tools {
+	border-radius: 4px;
+}
+.tooltip, .btn-subscribe {
+	background-color: #FFFFFF;
+}
+.btn {
+	width: 200px;
+	height: 30px;
+	margin-bottom: 5px;
+	background-color: #F1F1F1;
+	color: #777777;
+	font-size: 1em;
+}
+.btn, .top-block {
+	font-weight: bold;
+}
+.news-feed-wrapper {
+	position: absolute;
+	left: 379px;
+	bottom: 55px;
+	border: 1px solid #EEEEEE;
+}
+.news-feed, a {
+	color: #4183C4;
+}
+a {
+	text-decoration: none;
+}
+.btn-subscribe {
+	width: 125px;
+	height: 30px;
+}
+.top-block {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #CACACA;
+	background-color: #F2F2F2;
+}
+.top-block, .nickname {
+	color: #222222;
+}
+.avatar {
+	width: 15%;
+	margin-left: 260px;
+	padding-top: 10px;
+}
+.tools {
+	position: absolute;
+	top: 8px;
+	left: 354px;
+	width: 25%;
+	border: 1px solid #DDDDDD;
+	border-style: groove;
+	background-color: #E6E6E6; 
+}
+.avatar, .tools {
+	height: 35px;
+}
+.t1, .t2, .t3 {
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.nickname {
+	position: relative;
+	top: -5px;
+	margin-left: 5px;
+	font-size: 0.8em;
+}
+.nick {
+	margin-top: 5px;
+}
